@@ -1,0 +1,28 @@
+<?php
+foreach($semua as $r){
+?>
+<tr>
+	<td><?=$r['NPWP'];?></td>
+	<td><?=$r['KPP_ADMIN'];?></td>
+	<td><?=$r['JENIS_DATA'];?></td>
+	<td><?=$r['TAHUN_DATA'];?></td>
+	<td><?=$r['SP2DK_NIP_AR'];?></td>
+	<td><?=$r['SP2DK_NAMA_AR'];?></td>
+	<td><?=$r['KONSELING_NIP_AR'];?></td>
+	<td><?=$r['KONSELING_NAMA_AR'];?></td>
+	<td><?=$r['USUL_RIKSUS_NIP_AR'];?></td>
+	<td><?=$r['USUL_RIKSUS_NAMA_AR'];?></td>
+	<td><?=$r['POTENSI_NIP_AR'];?></td>
+	<td><?=$r['POTENSI_NAMA_AR'];?></td>
+	<td><?=$r['REALISASI_NIP_AR'];?></td>
+	<td><?=$r['REALISASI_NAMA_AR'];?></td>
+	<td><?=$r['KETERANGAN_NIP_AR'];?></td>
+	<td><?=$r['KETERANGAN_NAMA_AR'];?></td>
+	<td><?=$r['RESPON_NIP_AR'];?></td>
+	<td><?=$r['RESPON_NAMA_AR'];?></td>
+	<td><?=$r['CLOSED_NIP_AR'];?></td>
+	<td><?=$r['CLOSED_NAMA_AR'];?></td>
+</tr>
+<?php
+}
+?>
